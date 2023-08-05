@@ -196,7 +196,7 @@ namespace EmployeeManagement.Controllers
                 }
             }
 
-            return RedirectToAction(nameof(Update), new { id = idRole });
+            return RedirectToAction(nameof(Update), new { id = idRole }) ;
 
         }
 
