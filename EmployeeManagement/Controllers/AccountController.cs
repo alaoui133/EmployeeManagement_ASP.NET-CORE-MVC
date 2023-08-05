@@ -66,7 +66,7 @@ namespace EmployeeManagement.Controllers
                 {
                     return RedirectToAction("Index", "Employee");
                 }
-                ModelState.AddModelError(string.Empty, "Login Invalid .");
+                ModelState.AddModelError(string.Empty, "Login Invalid ");
             }
             return View();
         }
