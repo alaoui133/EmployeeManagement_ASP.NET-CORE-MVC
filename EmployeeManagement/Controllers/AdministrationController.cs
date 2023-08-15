@@ -94,6 +94,7 @@ namespace EmployeeManagement.Controllers
             return View(model);
         }
 
+
         [HttpPost]
         public async Task<IActionResult> Update(UpdateRoleViewModel model)
         {
