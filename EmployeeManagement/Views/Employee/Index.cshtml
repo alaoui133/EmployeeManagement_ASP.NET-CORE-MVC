@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Employee>
+
+
+
+
+
+<div class="alert alert-success alert-dismissible fade show" role="alert" style="display:@(TempData["Message"] != null ? "block" : "none")">
+    <strong>Warning!</strong> @TempData["Message"].
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+<div class="row">
+    @foreach (Employee employee in Model)
+    {
+        var ImagePathName = "/images/" + (employee.Image == "" || employee.Image == null ? "u1.png" : employee.Image);
+        <div class="col-lg-3 col-sm-6">
+
+            <div class="card">
+                <img asp-append-version=true src="@ImagePathName" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@employee.Name</h5>
+                    <p class="card-text">@employee.Departement</p>
+                    <p class="card-text">@employee.Email</p>
+                    <div class="btn-group align-content-center">
+                        <a asp-action="Details" asp-controller="Employee" asp-route-id="@employee.Id" class="btn btn-primary mx-2">Detail</a>
+                        <a asp-action="Update" asp-controller="Employee" asp-route-id="@employee.Id" class="btn btn-warning mx-2">Update</a>
+                        <a asp-action="Delete" asp-controller="Employee" asp-route-id="@employee.Id" class="btn btn-danger mx-2">Delete</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+

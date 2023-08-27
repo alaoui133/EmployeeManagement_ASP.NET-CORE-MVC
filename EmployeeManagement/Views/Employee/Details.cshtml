@@ -1,0 +1,24 @@
+﻿@model Employee
+<h1>@ViewBag.Title</h1>
+@{
+    ViewData["Title"] = "Details Page";
+    var ImagePathName = "/images/" + (Model.Image == "" || Model.Image == null ? "u1.png" : Model.Image);
+
+}
+<div class="row">
+    <div class="col-6 mx-auto">
+        <div class="card">
+            <img src="@ImagePathName" class="card-img-top" alt="..." width="100" height="350">
+            <div class="card-body">
+                <h5 class="card-title">@Model.Name</h5>
+                <p class="card-text">@Model.Departement</p>
+                <p class="card-text">@Model.Email</p>
+                <a asp-action="Index" class="btn btn-primary">Go Back</a>
+                <a asp-action="Update" asp-controller="Employee" asp-route-id="@Model.Id" class="btn btn-dark my-3">Update</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,353 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\EmployeeManagement.bundle.scp.css",
+      "PackagePath": "staticwebassets\\EmployeeManagement.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\images\\08473001-260c-4aaa-9250-726942ed125d_351158430_288775046923645_6058738061433427665_n.jpg",
+      "PackagePath": "staticwebassets\\images\\08473001-260c-4aaa-9250-726942ed125d_351158430_288775046923645_6058738061433427665_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\images\\2692b183-159c-470c-8cda-82126cea7080_8.jpg",
+      "PackagePath": "staticwebassets\\images\\2692b183-159c-470c-8cda-82126cea7080_8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\images\\29e58658-da91-483b-9355-0533251ad507_8.jpg",
+      "PackagePath": "staticwebassets\\images\\29e58658-da91-483b-9355-0533251ad507_8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\images\\334d0b7a-d203-4e6b-929c-2ca93de00653_hezoka.jpg",
+      "PackagePath": "staticwebassets\\images\\334d0b7a-d203-4e6b-929c-2ca93de00653_hezoka.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\images\\351158430_288775046923645_6058738061433427665_n.jpg",
+      "PackagePath": "staticwebassets\\images\\351158430_288775046923645_6058738061433427665_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\images\\471c2e17-1220-4b72-a7f5-05959b182568_u1.png",
+      "PackagePath": "staticwebassets\\images\\471c2e17-1220-4b72-a7f5-05959b182568_u1.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\images\\48a24810-defc-4dab-9783-057f1a5d0853_4.jpg",
+      "PackagePath": "staticwebassets\\images\\48a24810-defc-4dab-9783-057f1a5d0853_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\images\\502a50aa-4ffc-4308-b743-8c4a17a4b31c_hezoka.jpg",
+      "PackagePath": "staticwebassets\\images\\502a50aa-4ffc-4308-b743-8c4a17a4b31c_hezoka.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\images\\529d4a78-0e5c-43ec-9147-858cb9e562c7_5d6e64f1-d418-4f29-a878-70d179ed0c8d.jpg",
+      "PackagePath": "staticwebassets\\images\\529d4a78-0e5c-43ec-9147-858cb9e562c7_5d6e64f1-d418-4f29-a878-70d179ed0c8d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\images\\52b311c5-9556-48ff-9769-172bc616bad3_8.jpg",
+      "PackagePath": "staticwebassets\\images\\52b311c5-9556-48ff-9769-172bc616bad3_8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\images\\57503220-07c3-4766-b907-b97aa02b64e6_8.jpg",
+      "PackagePath": "staticwebassets\\images\\57503220-07c3-4766-b907-b97aa02b64e6_8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\images\\5af4260e-bf01-4f53-8df1-0d24632a971f_dsfs.jpg",
+      "PackagePath": "staticwebassets\\images\\5af4260e-bf01-4f53-8df1-0d24632a971f_dsfs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\images\\5cd5a162-7894-4ed7-b961-9b195fa93495_d.jpg",
+      "PackagePath": "staticwebassets\\images\\5cd5a162-7894-4ed7-b961-9b195fa93495_d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\images\\73eeceb1-ab0b-4c9f-afe3-d466a50308e3_4.jpg",
+      "PackagePath": "staticwebassets\\images\\73eeceb1-ab0b-4c9f-afe3-d466a50308e3_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\images\\7b7215fd-ac3b-4dd5-801c-926d81fa12a6_8.jpg",
+      "PackagePath": "staticwebassets\\images\\7b7215fd-ac3b-4dd5-801c-926d81fa12a6_8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\images\\c0a855b7-b8c7-4dea-9101-a068f4c7162c_dsfs.jpg",
+      "PackagePath": "staticwebassets\\images\\c0a855b7-b8c7-4dea-9101-a068f4c7162c_dsfs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\images\\c215db4e-fa19-4f9b-ba40-644735e29b53_u1.png",
+      "PackagePath": "staticwebassets\\images\\c215db4e-fa19-4f9b-ba40-644735e29b53_u1.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\images\\d46d284a-43f5-43c9-91aa-43a6321de503_u1 (3).png",
+      "PackagePath": "staticwebassets\\images\\d46d284a-43f5-43c9-91aa-43a6321de503_u1 (3).png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\images\\d46d284a-43f5-43c9-91aa-43a6321de503_u1.png",
+      "PackagePath": "staticwebassets\\images\\d46d284a-43f5-43c9-91aa-43a6321de503_u1.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\images\\d5554ec3-94b8-4edb-8ae1-aff03b649727_dsfs.jpg",
+      "PackagePath": "staticwebassets\\images\\d5554ec3-94b8-4edb-8ae1-aff03b649727_dsfs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\images\\e385b354-60c5-4b0e-b15b-4362a64f5b01_hezoka.jpg",
+      "PackagePath": "staticwebassets\\images\\e385b354-60c5-4b0e-b15b-4362a64f5b01_hezoka.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\images\\u1.png",
+      "PackagePath": "staticwebassets\\images\\u1.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo x260 N8\\source\\repos\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.EmployeeManagement.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.EmployeeManagement.props",
+      "PackagePath": "build\\EmployeeManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.EmployeeManagement.props",
+      "PackagePath": "buildMultiTargeting\\EmployeeManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.EmployeeManagement.props",
+      "PackagePath": "buildTransitive\\EmployeeManagement.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
