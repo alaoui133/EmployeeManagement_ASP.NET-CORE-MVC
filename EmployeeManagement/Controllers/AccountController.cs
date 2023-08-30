@@ -22,7 +22,18 @@ namespace EmployeeManagement.Controllers
             await _signInManager.SignOutAsync();
             return  RedirectToAction("Index","Employee");
         }
-
+        public async Task<IActionResult> CheckingExistingEmail(AccountRegisterViewModel model)
+        {
+            var user = await _userManager.FindByEmailAsync(model.EmailAdress);
+            if (user == null)
+            {
+                return Json(true);
+            }
+            else
+            {
+                return Json($" this Email {model.EmailAdress} is already exist");
+            }
+        }
         public IActionResult Register() 
         { 
             return View();
@@ -57,14 +68,24 @@ namespace EmployeeManagement.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Login(AccountLoginViewModel model)
+        public async Task<IActionResult> Login(AccountLoginViewModel model , string ReturnUrl)
         {
             if (ModelState.IsValid)
             {
              var result = await _signInManager.PasswordSignInAsync(model.EmailAdress,model.Password,false,false);
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index", "Employee");
+                    if (string.IsNullOrEmpty(ReturnUrl) && Url.IsLocalUrl(ReturnUrl))
+                    {
+                        return Redirect(ReturnUrl);
+
+                    }
+                    else
+                    {
+                        return RedirectToAction("Index", "Employee");
+
+                    }
+
                 }
                 ModelState.AddModelError(string.Empty, "Login Invalid ");
             }

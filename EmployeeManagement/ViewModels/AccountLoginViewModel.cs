@@ -11,6 +11,7 @@ namespace EmployeeManagement.ViewModels
 
         [Required]
         [DataType(DataType.Password)]
+        [MinLength(8 ,ErrorMessage = " Password must be with a minimum length of 8 ")]
         public string Password { get; set; }
 
         [Display(Name ="Remember Me")]

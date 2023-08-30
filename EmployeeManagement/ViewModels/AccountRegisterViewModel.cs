@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
 
 namespace EmployeeManagement.ViewModels
 {
@@ -14,6 +15,7 @@ namespace EmployeeManagement.ViewModels
 
         [Required]
         [DataType(DataType.EmailAddress)]
+        [Remote(action:"CheckingExistingEmail",controller:"Account")]
         public string EmailAdress { get; set; }
 
         [Required]

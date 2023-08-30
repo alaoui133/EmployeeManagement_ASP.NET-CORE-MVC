@@ -1,11 +1,13 @@
 ﻿using EmployeeManagement.Models;
 using EmployeeManagement.Models.Repositories;
 using EmployeeManagement.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using IWebHostEnvironment = Microsoft.AspNetCore.Hosting.IWebHostEnvironment;
 
 namespace EmployeeManagement.Controllers
 {
+    [Authorize]
     public class EmployeeController : Controller
     {
         private readonly ICompanyRepository<Employee> _CompanyRepository;
@@ -29,7 +31,7 @@ namespace EmployeeManagement.Controllers
 
 
 
-
+        [AllowAnonymous]
         public ActionResult Details(int? id)
         {
 
@@ -51,6 +53,8 @@ namespace EmployeeManagement.Controllers
 
         }
 
+        [AllowAnonymous]
+        [Route("")]
         public ViewResult Index()
         {
             IEnumerable<Employee> employees = _CompanyRepository.GetAll();

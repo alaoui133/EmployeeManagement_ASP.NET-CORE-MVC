@@ -8,13 +8,13 @@
     Registration Form
 </div>
 
-<form  asp-action="Login" asp-controller="Account" method="post">
+<form   method="post">
 
 
     <div class="form-row">
         <div class="form-group">
             <label asp-for="EmailAdress"></label>
-            <input type="text" class="form-control" asp-for="EmailAdress">
+            <input  class="form-control" asp-for="EmailAdress">
             <span asp-validation-for="EmailAdress" hidden class="small text-danger"></span>
 
         </div>
