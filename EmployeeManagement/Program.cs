@@ -26,7 +26,7 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(strC
 
 // Identity
 
-builder.Services.AddIdentity<IdentityUser, IdentityRole>(options => { 
+builder.Services.AddIdentity<AppUser, IdentityRole>(options => { 
   options.Password.RequiredLength = 8;
   options.Password.RequireUppercase = false;
   options.Password.RequireLowercase = false;

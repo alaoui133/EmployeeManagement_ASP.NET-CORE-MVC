@@ -16,12 +16,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\lenovo x260 N8\source\repos\EmployeeManagement\EmployeeManagement
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/lenovo x260 N8/source/repos/EmployeeManagement/EmployeeManagement/Views/Account/EditAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFZGl0QWNjb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/lenovo x260 N8/source/repos/EmployeeManagement/EmployeeManagement/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lenovo x260 N8/source/repos/EmployeeManagement/EmployeeManagement/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo x260 N8/source/repos/EmployeeManagement/EmployeeManagement/Views/Administration/CreateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cQ3JlYXRlUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo x260 N8/source/repos/EmployeeManagement/EmployeeManagement/Views/Administration/ListRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cTGlzdFJvbGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lenovo x260 N8/source/repos/EmployeeManagement/EmployeeManagement/Views/Employee/Create.cshtml]
@@ -44,10 +56,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcTm90Rm91bmRFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lenovo x260 N8/source/repos/EmployeeManagement/EmployeeManagement/Views/Employee/TestV.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcVGVzdFYuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/lenovo x260 N8/source/repos/EmployeeManagement/EmployeeManagement/Views/Employee/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -58,6 +66,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/lenovo x260 N8/source/repos/EmployeeManagement/EmployeeManagement/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo x260 N8/source/repos/EmployeeManagement/EmployeeManagement/Views/NotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90Rm91bmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lenovo x260 N8/source/repos/EmployeeManagement/EmployeeManagement/Views/Shared/Error.cshtml]

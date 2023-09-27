@@ -27,6 +27,10 @@ namespace EmployeeManagement.ViewModels
         [Compare("Password",ErrorMessage ="Passwor and Comfir Password Do Not match ")]
         public string ConfirmPassword { get; set; }
 
+        [Required]
+        [Range(minimum:10 , maximum:60)]
+        public int Age { get; set; }    
+
 
     }
 }

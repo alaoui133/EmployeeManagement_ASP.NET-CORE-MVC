@@ -1,0 +1,32 @@
+﻿@model IEnumerable<IdentityRole>
+
+
+
+
+<p class=" alert alert-warning my-5 text-center">
+    List  Roles
+</p>
+
+<hr />
+<a asp-controller="CreateRole" class="btn btn-primary">Create New Role</a>
+<hr />
+
+<div class="row">
+    @foreach (IdentityRole role in Model)
+    {
+    
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Id : @role.Id</h5>
+                    <p class="card-text">@role.Name</p>
+                    <div class="btn-group align-content-center">
+                        <a asp-action="Update"  asp-route-id="@role.Id" class="btn btn-warning mx-2">Update</a>
+                        <a asp-action="Delete"  asp-route-id="@role.Id" class="btn btn-danger mx-2">Delete</a>
+                    </div>
+                </div>
+            </div>
+        
+    }
+</div>
+
+
