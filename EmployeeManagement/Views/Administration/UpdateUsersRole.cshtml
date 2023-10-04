@@ -1,0 +1,41 @@
+﻿@model List<UpdateUsersRoleViewModel>
+
+
+@{
+    ViewBag.Title = "Update Role Users";
+
+}
+
+
+<div class="my-5">
+    <div class="card">
+        <div class="card-header">
+            Add or remove users from this roles
+            <hr />
+            <input disabled value="@ViewBag.RoleId" />
+        </div>
+
+        <div class="card-body">
+            @foreach (var User in Model)
+            {
+               <div class="form-check"> 
+                   <input asp-for="@User.IsSelected" class="form-check-input" />
+                   <label asp-for="@User.IsSelected" class="form-check-label">@User.UserName</label>
+               </div>
+            }
+
+        </div>
+
+        <div class="card-footer">
+
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+
