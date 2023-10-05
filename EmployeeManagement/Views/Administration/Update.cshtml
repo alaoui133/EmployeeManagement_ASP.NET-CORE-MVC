@@ -38,7 +38,7 @@
                     <h5 class="card-title">List Users</h5>
                     <p class="card-text"> Any Users !!</p>
                     <div class="btn-group align-content-center">
-                        <a asp-action="UpdateUserRole" asp-route-idRole="@Model.Id" class="btn btn-primary mx-2">Add/remove User</a>
+                        <a asp-action="UpdateUsersRole" asp-route-idRole="@Model.Id" class="btn btn-primary mx-2">Add/remove User</a>
                         <a asp-action="ListRoles" asp-route-idRole="@Model.Id" class="btn btn-secondary mx-2">Cancel</a>
                     </div>
                 </div>
@@ -52,13 +52,13 @@
                     <h5 class="card-title">List Users</h5>
 
                     <p class="card-text">
-                        @foreach (string userEmail in Model.Users)
+                        @foreach (string userEmail in Model.Users.ToList())
                         {
                             <span> @userEmail </span> <hr />
                         }
                     </p>
                     <div class="btn-group align-content-center">
-                        <a asp-action="UpdateUserRole" asp-route-idRole="@Model.Id" class="btn btn-primary mx-2">Add/remove User</a>
+                        <a asp-action="UpdateUsersRole" asp-route-idRole="@Model.Id" class="btn btn-primary mx-2">Add/remove User</a>
                         <a asp-action="ListRoles" asp-route-idRole="@Model.Id" class="btn btn-secondary mx-2">Cancel</a>
                     </div>
 
