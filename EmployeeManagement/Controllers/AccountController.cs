@@ -11,6 +11,8 @@ namespace EmployeeManagement.Controllers
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
 
+       
+
         public AccountController(UserManager<AppUser> userManager,
             SignInManager<AppUser> signInManager)
         {
@@ -60,6 +62,7 @@ namespace EmployeeManagement.Controllers
                     Email = model.EmailAdress
                 };
                 var result = await _userManager.CreateAsync(user, model.Password);
+             
 
                 if (result.Succeeded)
                 {

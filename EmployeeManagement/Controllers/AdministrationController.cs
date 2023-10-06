@@ -62,16 +62,16 @@ namespace EmployeeManagement.Controllers
 
 
         [HttpGet]
-        public async Task<IActionResult> Update(string? id)
+        public async Task<IActionResult> Update(string id)
         {
             if (id is null)
             {
-                return View("NotFound", "Please Add Role Id to url");
+                return View("/Shared/NotFound", "Please Add Role Id to url");
             }
             IdentityRole role = await _roleManager.FindByIdAsync(id);
             if (role == null)
             {
-                return View("NotFound", $"this Role Id :{id} Note Exist");
+                return View("/Shared/NotFound", $"this Role Id :{id} Note Exist");
             }
 
             UpdateRoleViewModel model = new UpdateRoleViewModel()
@@ -101,10 +101,11 @@ namespace EmployeeManagement.Controllers
             {
 
 
+
                 IdentityRole role = await _roleManager.FindByIdAsync(model.Id);
                 if (role == null)
                 {
-                    return View("NotFound", $"this Role Id :{model.Id} Note Exist");
+                    return View("/Shared/NotFound", $"this Role Id :{model.Id} Note Exist");
                 }
 
                 role.Name = model.RoleName;
@@ -121,11 +122,15 @@ namespace EmployeeManagement.Controllers
         [HttpGet]
         public async Task<IActionResult> UpdateUsersRole(string idRole)
         {
+            if (string.IsNullOrEmpty(idRole))
+            {
+                return View("NotFound", $"The Role Must be Exist and not empty in the URL !");
 
+            }
             IdentityRole role = await _roleManager.FindByIdAsync(idRole);
             if (role == null)
             {
-                return View("NotFound", $"this Role Id :{role.Id} Note Exist");
+                return View("NotFound", $"this Role Id Not Exist");
             }
 
             List<UpdateUsersRoleViewModel> ModelList = new List<UpdateUsersRoleViewModel>();
@@ -139,23 +144,72 @@ namespace EmployeeManagement.Controllers
                     IsSelected = false
                 };
 
-                if (await _userManager.IsInRoleAsync(user,role.Name))
+                if (await _userManager.IsInRoleAsync(user, role.Name))
                 {
-                    ModelList.Add(model);
+                    model.IsSelected = true;
                 }
+                ModelList.Add(model);
             }
 
-            ViewBag.RoleId = idRole ;
+            ViewBag.RoleId = idRole;
             return View(ModelList);
         }
 
+        [HttpPost]
 
+        public async Task<IActionResult> UpdateUsersRole(List<UpdateUsersRoleViewModel> model, string idRole)
+        {
 
+            if (string.IsNullOrEmpty(idRole))
+            {
+                return View("NotFound", $"The Role Must be Exist and not empty in the URL !");
+
+            }
+
+            IdentityRole role = await _roleManager.FindByIdAsync(idRole);
+            if (role == null)
+            {
+                return View("NotFound", $"this Role Id :{role.Id} Note Exist");
+            }
+
+            IdentityResult result = null;
+
+            for (int i = 0; i < model.Count; i++)
+            {
+                AppUser user = await _userManager.FindByIdAsync(model[i].UserId);
+                if ((await _userManager.IsInRoleAsync(user, role.Name)) && !model[i].IsSelected)
+                {
+                    result = await _userManager.RemoveFromRoleAsync(user, role.Name);
+                }
+                else if ((!await _userManager.IsInRoleAsync(user, role.Name)) && model[i].IsSelected)
+                {
+                    result = await _userManager.AddToRoleAsync(user, role.Name);
+                }
+            }
+
+            if (!result.Succeeded)
+            {
+                foreach (var item in result.Errors)
+                {
+                    ModelState.AddModelError(string.Empty , item.Description);
+
+                }
+            }
+
+            return RedirectToAction(nameof(Update), new { id = idRole });
+
+        }
 
 
 
     }
 
 
+
+
+
 }
+
+
+
 

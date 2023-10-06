@@ -4,38 +4,45 @@
 @{
     ViewBag.Title = "Update Role Users";
 
+
 }
 
-<form method="post" asp-action="UpdateUsersRole">
-<div class="my-5">
-    <div class="card">
+<form method="post" >
+    <div class="my-5">
+        <div class="card">
             <div class="card-header text-center">
                 <span class="display-1">Add or remove users from this roles</span>
-            <hr />
-            <input disabled value="@ViewBag.RoleId" />
+                <hr />
+                <input disabled value="@ViewBag.RoleId" />
+            </div>
+
+            <div class="card-body">
+                @for (int i = 0; i < Model.Count(); i++)
+                {
+                    var uniqueName = "User" + i;
+                    <div class="form-check">
+                        <input hidden asp-for="@Model[i].UserId" />
+                        <input hidden asp-for="@Model[i].UserName" />
+                        <input asp-for="@Model[i].IsSelected" id="@uniqueName" class="form-check-input" />
+                        <label for="@uniqueName" class="form-check-label">@Model[i].UserName</label>
+                    </div>
+                }
+
+
+            </div>
+
+            <div class="card-footer">
+                <a asp-action="Update" asp-route-id="@ViewBag.RoleId" class="btn btn-primary mx-2">Back to role</a>
+                <button type="submit" class="btn btn-success">Update</button>
+                <br />
+                <div asp-validation-summary="All" class="text-danger"></div>
+
+            </div>
+
+
         </div>
-
-        <div class="card-body">
-            @foreach (var User in Model)
-            {
-               <div class="form-check"> 
-                   <input asp-for="@User.IsSelected" class="form-check-input" />
-                   <label asp-for="@User.IsSelected" class="form-check-label">@User.UserName</label>
-               </div>
-            }
-
-        </div>
-
-        <div class="card-footer">
-            <a asp-action="Update" asp-route-id="@ViewBag.RoleId" class="btn btn-primary mx-2">Back to role</a>
-            <button type="submit" class="btn btn-success">Update</button>
-
-        </div>
-
 
     </div>
-
-</div>
 
 
 </form>
